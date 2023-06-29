@@ -22,6 +22,10 @@ a {
   margin-top: 30px;
 }
 
+.mt18 {
+  margin-top: 18px;
+}
+
 .btn {
   min-width: 98px;
   padding: 18px 16px;
@@ -32,6 +36,12 @@ a {
   text-align: center;
   font-size: 1.4rem;
   font-weight: 500;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .root {
@@ -122,5 +132,25 @@ a {
   position: absolute;
   bottom: 0;
   right: calc((100vw - 1110px) / 2 - 100px);
-  /* width: 40%; */
+}
+
+/* =============================================== Clients ==================== */
+#clients .content {
+  width: 1110px;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 122px;
+}
+
+#clients .content .desc {
+  color: #7d8589;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+}
+
+#clients .content .sponsor-imgs {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 77px;
 }

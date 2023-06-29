@@ -38,6 +38,12 @@ a {
   font-weight: 500;
 }
 
+.content {
+  width: 1110px;
+  max-width: 100%;
+  margin: auto;
+}
+
 .row {
   display: flex;
   justify-content: space-between;
@@ -47,6 +53,7 @@ a {
 .root {
 }
 
+/* =============================================== Header ==================== */
 #header {
   background-color: #e6f0ff;
   height: 736px;
@@ -135,10 +142,7 @@ a {
 }
 
 /* =============================================== Clients ==================== */
-#clients .content {
-  width: 1110px;
-  max-width: 100%;
-  margin: auto;
+#clients {
   margin-top: 122px;
 }
 
@@ -149,8 +153,76 @@ a {
   line-height: 1.25rem;
 }
 
-#clients .content .sponsor-imgs {
+#clients .content .sponsor-img {
   display: flex;
   justify-content: space-between;
   margin-top: 77px;
 }
+
+/* =============================================== Guides ==================== */
+
+.guides {
+  margin-top: 174px;
+}
+
+.guide__title {
+  color: #000339;
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1;
+  position: relative;
+}
+
+.guide__title::before {
+  content: "";
+  display: inline-block;
+  width: 41px;
+  height: 4px;
+  border-radius: 12px;
+  background: #000339;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -10px;
+}
+
+.guide__desc {
+  width: 44.6%;
+  margin: auto;
+  text-align: center;
+  color: #5a6473;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.875;
+  margin-top: 20px;
+}
+
+.guide-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.guide-item {
+  margin: 0 70px;
+  text-align: center;
+}
+
+.guide-item .link {
+  color: #0689ff;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.1;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.guide-cta {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+/* =============================================== Features ==================== */

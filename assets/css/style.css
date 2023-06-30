@@ -328,3 +328,138 @@ a {
   line-height: 1;
   margin-left: 8px;
 }
+
+/* =============================================== Stats ==================== */
+
+#stats {
+  padding-top: 125px;
+}
+
+#stats .row-gap {
+  display: flex;
+  gap: 165px;
+}
+
+.demo {
+  width: 520px;
+  position: relative;
+}
+
+.demo__img {
+  width: 400px;
+  height: 460px;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+  margin-left: auto;
+}
+
+.info {
+  width: 310px;
+}
+
+.info__title {
+  color: #000339;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1.39em;
+  position: relative;
+}
+
+.info__title::before {
+  content: "";
+  display: inline-block;
+  width: 41px;
+  height: 4px;
+  border-radius: 12px;
+  background: #000339;
+  position: absolute;
+  top: -10px;
+}
+
+.info__desc {
+  color: #5a6473;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.875em;
+}
+
+.stats-trend {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 239px;
+  min-height: 252px;
+  padding: 45px 22px 40.5px;
+  background-color: #fff;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.trend__quantity {
+  color: #000339;
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.26px;
+}
+
+.trend__icon {
+}
+
+.trend__desc {
+  color: #a7a7a7;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 8px;
+}
+
+.separate {
+  display: block;
+  height: 1.2px;
+  background: #e9e9e9;
+  margin-top: 25.5px;
+}
+
+.avt-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16.34px 0;
+  margin-top: 25.8px;
+  margin-left: -14px;
+}
+
+.avt-group {
+  display: flex;
+  margin-left: 14px;
+}
+
+.avt-item {
+  width: 16.337px;
+  height: 16.337px;
+  flex-shrink: 0;
+  border-radius: 16.337px;
+  margin-left: -3px;
+}
+
+.qty-row {
+  margin-top: 110px;
+}
+
+.qty-item {
+}
+
+.qty-item .title {
+  color: #000;
+  font-size: 6.4rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.qty-item .desc {
+  color: #7b8087;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-top: 24px;
+}
